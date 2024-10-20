@@ -7,6 +7,7 @@ const loveNotes = [
   { date: "May 8, 2024", note: "I still remember the way you smiled the first time we met. That smile lit up my world." },
   { date: "August 12, 2024", note: "You are the love of my life, and I promise to cherish every moment with you forever." },
   { date: "September 15, 2024", note: "Every day with you feels like a dream come true. I'm so lucky to have you by my side." },
+  { date: "October 20, 2024", note: "I love you my Kaya, My princess Arora" },
   // Add more love notes here
 ];
 

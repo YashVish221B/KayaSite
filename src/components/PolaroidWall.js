@@ -10,11 +10,11 @@ import photo3 from './photo3.jpg';
 const photos = [
   {
     src: photo1,
-    caption: 'Our First Date - Bandstand',
+    caption: 'Kissi - Kissi',
   },
   {
     src: photo2,
-    caption: 'The Day You Said Yes!',
+    caption: 'So do you like me?',
   },
   {
     src: photo3,

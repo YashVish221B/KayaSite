@@ -26,7 +26,7 @@ const Countdown = () => {
     <CountdownContainer>
       <h2>Days Together</h2>
       <DayCounter>{daysTogether}</DayCounter>
-      <p>Days of Love since the first kiss at Bandstand 💕</p>
+      <p>Days of Love since the first I love You 💕</p>
     </CountdownContainer>
   );
 };
