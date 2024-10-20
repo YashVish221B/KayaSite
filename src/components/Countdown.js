@@ -6,7 +6,7 @@ const Countdown = () => {
   const [daysTogether, setDaysTogether] = useState(0);
 
   // Replace with the actual start date of your relationship
-  const startDate = new Date('2024-04-01'); // Example: April 1, 2021
+  const startDate = new Date('2023-04-01'); // Example: April 1, 2021
 
   useEffect(() => {
     const calculateDays = () => {
