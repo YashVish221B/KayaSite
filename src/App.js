@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import MemoriesTimeline from './components/MemoriesTimeline';
+import LoveNotesCarousel from './components/LoveNotesCarousel';
+import PolaroidWall from './components/PolaroidWall';
+import SecretMessages from './components/SecretMessages'; // Optional
+import Countdown from './components/Countdown'; // Optional
+import Navbar from './components/Navbar'; // Import Navbar component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar /> {/* Add Navbar here */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/memories" element={<MemoriesTimeline />} />
+        <Route path="/notes" element={<LoveNotesCarousel />} />
+        <Route path="/gallery" element={<PolaroidWall />} />
+        <Route path="/secrets" element={<SecretMessages />} /> {/* Optional */}
+        <Route path="/countdown" element={<Countdown />} /> {/* Optional */}
+      </Routes>
+    </Router>
   );
 }
 
