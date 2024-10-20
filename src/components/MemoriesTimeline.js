@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 // Import images directly
-import photo1 from './photo4.jpg';
-import photo2 from './photo5.jpg';
-import photo3 from './photo6.jpg';
+import photo4 from './photo4.jpg';
+import photo5 from './photo5.jpg';
+import photo6 from './photo6.jpg';
 
 const timelineData = [
-  { date: "Kaya", title: "You're ", description: "Always Keep", image: photo1 },
-  { date: "Kaya", title: "So", description: "Smiling", image: photo2 },
-  { date: "Kaya", title: "Adoreable", description: "I love you, Kaya", image: photo3 },
+  { date: "Kaya", title: "You're ", description: "Always Keep", image: photo4 },
+  { date: "Kaya", title: "So", description: "Smiling", image: photo5 },
+  { date: "Kaya", title: "Adoreable", description: "I love you, Kaya", image: photo6 },
   // More memories can be added here
 ];
 
